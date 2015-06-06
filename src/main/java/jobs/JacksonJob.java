@@ -1,15 +1,18 @@
+package jobs;
+
 /**
  * Created by jason on 6/5/15.
  */
-public class AWSJob {
-
+public class JacksonJob {
     private String jobId;
     private String accountId;
     private String customerName;
     private String frequency;
     private String enqueuedAt;
 
-    public AWSJob(String jobId, String accountId, String customerName, String frequency, String enqueuedAt) {
+    public JacksonJob() {}
+
+    public JacksonJob(String jobId, String accountId, String customerName, String frequency, String enqueuedAt) {
         this.jobId = jobId;
         this.accountId = accountId;
         this.customerName = customerName;
@@ -56,4 +59,5 @@ public class AWSJob {
     public void setEnqueuedAt(String enqueuedAt) {
         this.enqueuedAt = enqueuedAt;
     }
+
 }

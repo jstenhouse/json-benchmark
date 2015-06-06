@@ -6,6 +6,9 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.caliper.Benchmark;
 import com.google.caliper.runner.CaliperMain;
 import com.google.gson.Gson;
+import jobs.AWSJob;
+import jobs.GsonJob;
+import jobs.JacksonJob;
 
 import java.io.IOException;
 
