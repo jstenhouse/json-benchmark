@@ -1,6 +1,6 @@
 ## JSON Benchmark
 
-For really small json payloads, [Jackson](https://github.com/FasterXML/jackson) is the winner for this test.
+For a small json payload, [Jackson](https://github.com/FasterXML/jackson) is the winner for this test.
 
 ```
 timeAWSFromJson     21,685 (bytes)   17.0 (ms)   510 (objects)
